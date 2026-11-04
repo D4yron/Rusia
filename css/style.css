@@ -1,0 +1,160 @@
+body {
+        background-color: hsla(0, 100%, 50%, 10);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        text-align: justify;
+    }
+
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px -2px 1px blue;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .ppal {
+        font-family: Stencil, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-family: serif;
+    }
+
+
+    .himno {
+        text-transform: capitalize;
+    }
+
+    .centrado {
+        text-align: center;
+    }
+
+    .bandera {
+        width: 50%;
+        min-width: 300px;
+    }
+
+    nav ul {
+        list-style-type: none;        
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;         
+        background-color: blue;
+        
+        li {
+            display: block;
+        }
+       
+        li:hover {
+            background-color: lightblue;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 5px;
+        }  
+        
+    }
+
+ 
+    
+    .tabla-demografica {
+        border-collapse: collapse;
+
+        table, td {
+            border: 1px solid black;
+            
+        }
+
+        table {
+            width: 50%;
+            background-color: lightsalmon;
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        td:nth-child(even) { 
+            background-color: cadetblue;
+        }
+
+        th {
+            background-color: aqua;
+            padding: 20px;
+            border: 1px solid black;  
+            text-transform: capitalize;          
+        }
+    }    
+
+    .habitantes {
+        text-align: end;
+    }
+
+    .contenedor {
+        background-color: peru;
+        padding: 20px;
+    }
+
+    .caja {
+        width: 100%;
+        min-width: 500px;
+        max-width: 500px;
+        height: 150px;
+        padding: 12px;
+        margin: 12px 0;
+        background-color:limegreen;
+        overflow: scroll;
+    }
+
+    .caja2 {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        margin: auto;
+        padding: 30px 10px;
+        border-radius: 20px 0 30px 10px;
+    }
+
+    section {
+        border-bottom: 1px solid black;
+        margin: 12px 0;
+    }
+
+    footer {
+        background-color: blue;
+        color: white;
+        padding: 16px;
+
+        table {
+            padding: 12px;
+            width: 100%;
+        }
+
+        .lista {
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            li {
+                list-style-type: none;
+                text-align: left;
+                padding: 6px;
+            }
+        }
+
+
+        .icono {
+            width: 24px;
+        }
+
+        .logo {
+            align-self: center;
+            max-width: 250px;
+            max-height: 250px;
+        }
+    }
